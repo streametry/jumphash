@@ -4,7 +4,11 @@
 .project
 .settings
 .classpath
+bin/
+
+# build
 .gradle
+build/
 
 # Package Files #
 *.jar
