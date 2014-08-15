@@ -3,6 +3,8 @@ apply plugin: 'eclipse'
 
 sourceCompatibility = 1.8
 version = '1.0'
+group = 'com.streametry'
+
 jar {
     manifest {
         attributes 'Implementation-Title': 'Jump Consistent Hash', 'Implementation-Version': version

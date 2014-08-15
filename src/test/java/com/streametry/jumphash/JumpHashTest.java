@@ -21,7 +21,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
  */
-package streametry;
+package com.streametry.jumphash;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -32,6 +32,8 @@ import java.util.Random;
 import java.util.TreeMap;
 
 import org.junit.Test;
+
+import com.streametry.jumphash.JumpHash;
 
 
 public class JumpHashTest {
