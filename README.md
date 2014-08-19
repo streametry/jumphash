@@ -17,7 +17,7 @@ Usage
 Download
 ========
 
-Available on Maven central:
+Available on [Maven central](http://search.maven.org/#search%7Cga%7C1%7Cjumphash):
 
  - com.streametry:jumphash:1.0
 
