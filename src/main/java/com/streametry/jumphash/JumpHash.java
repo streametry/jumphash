@@ -38,7 +38,12 @@ public class JumpHash {
 		return consistent(buckets, ob.hashCode());
 	}
 
-	/** Jump Consistent Hashing algorithm **/
+	/** Jump Consistent Hashing algorithm
+	 *
+	 * @param buckets number of buckets
+	 * @param keyHash hash of a key
+	 * @return selected bucket
+	 */
 	public static int consistent(int buckets, long keyHash) {
 
 		UnsignedLong key = fromLongBits(keyHash);
